@@ -1,0 +1,22 @@
+# torch/torchvision with CUDA 12.4:
+#   uv pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+torch>=2.3
+torchvision
+transformers<5
+timm
+scikit-learn
+pandas
+opencv-python-headless
+imagehash
+pillow
+pyyaml
+tqdm
+h5py
+kagglehub
+requests
+grad-cam
+pyiqa
+segment-anything
+setuptools<81   # pyiqa CLIP-IQA imports pkg_resources
+tabulate
+matplotlib

@@ -1,0 +1,31 @@
+{
+ "leave-classes-out, trained on airplane/cat/flower/motorbike": {
+  "oral test accepted": 0.9880952380952381,
+  "unseen car rejected": 1.0,
+  "unseen dog rejected": 0.975,
+  "unseen fruit rejected": 0.875,
+  "unseen person rejected": 0.675
+ },
+ "leave-classes-out, trained on car/dog/fruit/person": {
+  "oral test accepted": 0.9880952380952381,
+  "unseen airplane rejected": 1.0,
+  "unseen cat rejected": 1.0,
+  "unseen flower rejected": 0.85,
+  "unseen motorbike rejected": 1.0
+ },
+ "final gate (all 8 classes)": {
+  "oral val accepted": 0.9880952380952381,
+  "oral test accepted": 0.9880952380952381,
+  "held-out airplane rejected": 1.0,
+  "held-out car rejected": 1.0,
+  "held-out cat rejected": 1.0,
+  "held-out dog rejected": 1.0,
+  "held-out flower rejected": 0.975,
+  "held-out fruit rejected": 1.0,
+  "held-out motorbike rejected": 1.0,
+  "held-out person rejected": 1.0,
+  "dental (intraoral, accepting is fine) rejected": 0.033333333333333326,
+  "scikit-image photos rejected": 1.0,
+  "synthetic (noise, solid colours) rejected": 1.0
+ }
+}

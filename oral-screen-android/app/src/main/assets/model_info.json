@@ -1,0 +1,1 @@
+{"model": "mobilevitv2", "run": "mobilevitv2_geometric_wce", "seed": 3, "input_size": 256, "threshold": 0.5}

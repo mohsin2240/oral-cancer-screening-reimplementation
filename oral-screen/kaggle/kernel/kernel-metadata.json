@@ -1,0 +1,15 @@
+{
+  "id": "mosenwani/oral-screen-grid",
+  "title": "oral-screen-grid",
+  "code_file": "run_on_kaggle.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "mosenwani/oral-screen-bundle"
+  ],
+  "competition_sources": [],
+  "kernel_sources": []
+}

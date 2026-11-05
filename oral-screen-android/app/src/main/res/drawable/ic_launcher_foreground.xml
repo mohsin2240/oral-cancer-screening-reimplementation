@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A magnifier over a mouth outline, inside the 66dp safe zone of a 108dp adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M30,48 Q46,38 54,46 Q62,38 78,48 Q66,70 54,70 Q42,70 30,48 Z" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD166"
+        android:strokeWidth="4"
+        android:pathData="M60,58 m-9,0 a9,9 0,1 1,18 0 a9,9 0,1 1,-18 0" />
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFD166"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M67,65 L76,74" />
+</vector>

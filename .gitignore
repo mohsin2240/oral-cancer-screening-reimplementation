@@ -1,0 +1,33 @@
+# The paper, the report and the presentation are not part of the code release
+main_paper_*.pdf
+oral-screen/report/
+
+# Data: images are downloaded and rebuilt by src/download_data.py and src/prepare_data.py;
+# only the small manifests (which fix the exact splits) and per-image score files are kept
+oral-screen/data/*
+!oral-screen/data/*.csv
+oral-screen/checkpoints/
+
+# Results: only the aggregated tables are kept (per-run outputs and checkpoints are ~2 GB)
+oral-screen/results/*
+!oral-screen/results/tables/
+
+# Kaggle working files
+oral-screen/kaggle/bundle/
+oral-screen/kaggle/output*/
+oral-screen/kaggle/output_A_files.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.log
+
+# Android build output and machine-specific files (see also oral-screen-android/.gitignore)
+oral-screen-android/.gradle/
+oral-screen-android/.kotlin/
+oral-screen-android/.idea/
+oral-screen-android/build/
+oral-screen-android/app/build/
+oral-screen-android/local.properties
